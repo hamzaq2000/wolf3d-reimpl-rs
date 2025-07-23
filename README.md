@@ -54,6 +54,6 @@ The core game logic and the rendering algorithm are written from scratch. The th
 ## Credits & Disclaimer
 As this is a re-implementation of a classic game, I'd like to state the obvious and say that this isn't "my" game. It is id Software's game, released by them in 1992. The entire concept of the game, the design, the mechanics, all of the artwork, is most definitely not my creation, it is theirs.
 
-My creation and original work in this project lies purely in the technical realm of writing the code to replicate the workings of the game (hence, a re-implementation); all the logic and algorithms required. This is a purely educational pursuit for myself, I'm not trying to make any money off this (and if I tried, I'd have a lawsuit on my hands), I just want that sweet sweet technical street cred.
+My creation and original work in this project lies purely in the technical realm of writing the code to replicate the workings of the game (hence, a re-implementation); all the logic and algorithms required. This is a purely educational pursuit for myself, I'm not trying to make any money off this (and if I tried, I'd have a lawsuit on my hands).
 
 I found all the original artwork from the game [here](https://www.spriters-resource.com/pc_computer/wolfenstein3d/).
