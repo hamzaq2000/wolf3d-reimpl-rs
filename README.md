@@ -6,7 +6,7 @@ An in-progress, from-scratch, re-implementation of the FPS-genre pioneering game
 The goal is to re-implement all of the game's original functionality, as well as potentially add custom features like networked multiplayer.
 
 ## Current Engine Demo
-https://github.com/mhamzaqayyum/wolf3d-clone-rs/assets/25702188/c84cd321-ca95-4f4e-8ccf-91a684fb45e7
+https://github.com/user-attachments/assets/79e0a8ee-d1db-447c-99e2-ce526b7e7d25
 
 ### Remaining Features to Implement
 - [ ] Enemy AI

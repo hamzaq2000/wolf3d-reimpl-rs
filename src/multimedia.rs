@@ -33,7 +33,7 @@ impl Multimedia {
         let displayMode = sdlContexts.sdlVideoSubsystem.current_display_mode(0).unwrap();
         let sdlEventPump = sdlContexts.sdlContext.event_pump().unwrap();
         let sdlCanvas = sdlContexts
-            .CreateWindow("Wolfenstein 3D Clone - Rust", windowWidth as u32, windowHeight as u32)
+            .CreateWindow("Wolfenstein 3D Reimplementation - Rust", windowWidth as u32, windowHeight as u32)
             .into_canvas()
             .accelerated()
             .present_vsync()
@@ -204,14 +204,14 @@ impl TextureSheet {
             textures.push ({
                 let textureX = ((textureID - 1) % sheetPitch) * TEXTURE_PITCH as i32;
                 let textureY = ((textureID - 1) / sheetPitch) * TEXTURE_PITCH as i32;
-        
+
                 let mut extractedTextureSurface = Surface::new(TEXTURE_PITCH, TEXTURE_PITCH, PixelFormatEnum::ARGB8888).unwrap();
                 let _ = sheetSurface.blit(Rect::new(textureX, textureY, TEXTURE_PITCH, TEXTURE_PITCH), &mut extractedTextureSurface, Rect::new(0, 0, TEXTURE_PITCH, TEXTURE_PITCH));
-        
+
                 sdlTextureCreator.create_texture_from_surface(&extractedTextureSurface).unwrap()
         });
         }
-        
+
         Self {
             filename: filename.to_string(),
             pitch: sheetPitch,
