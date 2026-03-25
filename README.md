@@ -2,19 +2,10 @@
 
 <img src="https://github.com/user-attachments/assets/1c4f29d9-55a0-46e8-aead-67c5d112de8c" width=350/>
 
-An in-progress, from-scratch reimplementation of the FPS-genre pioneering game, [_Wolfenstein 3D_](https://en.wikipedia.org/wiki/Wolfenstein_3D), released by id Software in 1992, in Rust.
-The goal is to reimplement all of the game's original functionality, as well as potentially add custom features like networked multiplayer.
+A from-scratch partial reimplementation of the FPS-genre pioneering game, [_Wolfenstein 3D_](https://en.wikipedia.org/wiki/Wolfenstein_3D), released by id Software in 1992, in Rust.
 
 ## Current Engine Demo
 https://github.com/user-attachments/assets/79e0a8ee-d1db-447c-99e2-ce526b7e7d25
-
-### Remaining Features to Implement
-- [ ] Enemy AI
-- [ ] More weapons
-- [ ] WAD parser
-- [ ] Minimap
-- [ ] Networked multiplayer _(aspirational)_
-- [ ] Compile to [WebAssembly](https://rustwasm.github.io/docs/book)
 
 ### Completed
 - [x] Raycasting
